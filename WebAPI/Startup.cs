@@ -68,7 +68,7 @@ namespace WebAPI
 
             //AutoMapper
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+  
             services.AddAuthentication(options =>
              {
                  options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
